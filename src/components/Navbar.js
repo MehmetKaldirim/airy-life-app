@@ -1,10 +1,9 @@
 import React from "react";
-import logo from "../images/airy-logo.png";
 
 export default function Navbar() {
   return (
     <nav>
-      <img src={logo} className="nav--logo" alt="logo" />
+      <img src="/images/airy-logo.png" className="nav--logo" alt="logo" />
     </nav>
   );
 }
